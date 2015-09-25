@@ -1,0 +1,326 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+@import url(../../rsc/css/basic.css);	/* Import basic styles */
+
+html, body {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #EDFBD2 url(images/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #2B4E15;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000000;
+}
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-bottom: 1.8em;
+	line-height: 160%;
+}
+
+ul, ol {
+}
+
+blockquote {
+}
+
+a {
+	color: #71AB48;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	display: none;
+}
+
+/* Wrapper */
+
+#wrapper {
+	height: 100%;
+	min-height: 100%;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+html>body #wrapper {
+	height: auto;
+}
+
+/* Menu */
+
+#menu {
+	width: 778px;
+	height: 57px;
+	padding-top: 10px;
+	margin: 0 auto;
+	z-index: 9999;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	height: 20px;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #000000;
+}
+.ufld_icon_links a {
+	width: 40px !important;
+    height: 40px !important;
+	display: inline-block;
+    text-decoration: none;
+    border-radius: 50%;
+	padding: 0px !important;
+    position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu ul li a:hover {
+	background: #949684 !important;
+	color: #FFFFFF;
+	z-index: 9999;
+}
+
+#menu ul li.selected a {
+	background: #949684;
+	color: #FFFFFF;
+}
+
+/* Logo */
+
+#logo {
+	width: 798px;
+	height: 180px;
+	margin: 0 auto;
+	color: #FFFFFF;
+	z-index:-1;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+}
+
+#logo h1 {
+	padding: 25px 0 0 20px;
+	letter-spacing: -2px;
+	text-transform: lowercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+#logo h2 {
+	padding: 36px 0 0 10px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 778px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+/* Content */
+
+.bPosts {
+	float: left;
+	width: 494px;
+}
+
+table.prevnext_post { width : 100%; }
+td.right
+{
+        text-align: right;
+}
+
+.bPost {
+	padding-bottom: 20px;
+}
+
+.bPost .bTitle {
+	margin: 0;
+	padding: 5px 10px 0px 5px;
+	letter-spacing: -2px;
+}
+
+.bPost .bTitle a {
+	text-decoration: none;
+	color: #57A122;
+}
+.bPost .bSmallHead {
+	padding: 4px 10px 0px 5px;
+	font-size: smaller;
+}
+.bPost .bText {
+	padding: 10px 10px 0 5px;
+}
+
+.bPost .bSmallPrint {
+	height: 26px;
+	border-top: 1px solid #3E5C0E;
+	border-bottom: 2px solid #3E5C0E;
+	font-size: smaller;
+	font-weight: bold;
+	padding: 5px 0px 5px 5px;
+}
+.bPost .permalink_right {
+	float: right;
+	height: 16px;
+	padding: 5px 20px;
+}
+
+.post .permalink {
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 260px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin-bottom: 20px;
+}
+
+#sidebar li ul {
+	padding: 0.5ex 1em;
+}
+
+#sidebar li li {
+	margin: 0;
+}
+
+#sidebar p {
+	padding: 0 20px;
+}
+
+#sidebar h3 {
+	height: 29px;
+	margin: 0;
+	padding: 9px 0 0 20px;
+	background: #B6E074;
+	border: 1px  dotted #4D7C2B;
+	text-transform:lowercase;
+	font-size: 1.4em;
+	font-weight: normal;
+	color: #000000;
+}
+
+/* Search */
+
+#search form {
+	padding: 20px;
+}
+
+#search br {
+	display: none;
+}
+
+#search #s {
+	width: 135px;
+}
+
+/* Footer */
+
+#pageFooter {
+	clear: both;
+	padding: 10px 0;
+	font-size: smaller;
+}
+
+#pageFooter p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+}
+#pageFooter p a:link { color: #538034; }
+#pageFooter p a:visited { color: #459B08 ; }
+img { border: 0px }
+
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #57A122;
+	border:1px solid #57A122 !important;
+	cursor: pointer;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #57A122;
+	color: #fff;
+}
+#bCalendarToday {
+	border: 1px solid #57A122 !important;
+	background-color: #57A122 !important;
+	color: #fff;
+}
