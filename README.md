@@ -4,6 +4,12 @@ Link to skin: http://skins.b2evolution.net/firming-skin
 
 <img src="skinshot.png"/>
 
+### Update Log
+
+#### v1.1.1
+
+- Skin version fix
+
 #### v1.1.
 
 - Sitewide_header included for easier multi-blogging experience
